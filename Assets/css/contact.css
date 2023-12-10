@@ -1,0 +1,26 @@
+.ct {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fontt {
+    font-size: 1.2rem;
+}
+
+.content2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+}
+
+.content2 ul li {
+    margin-right: 20px;
+    font-size: 2.3rem;
+
+}
+
+.map {
+    width: 100%;
+
+}

@@ -1,0 +1,27 @@
+[17-Dec-2022 01:07:42 UTC] PHP Notice:  Undefined variable: onesp in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 01:07:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 01:07:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 07:34:17 UTC] PHP Notice:  Undefined variable: onesp in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 07:34:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 07:34:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 18:01:52 UTC] PHP Notice:  Undefined variable: onesp in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 18:01:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[17-Dec-2022 18:01:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_detail.php on line 173
+[18-Dec-2022 01:41:15 UTC] PHP Notice:  Undefined index: id_sp in /home/abz4ps6gmkfv/public_html/index.php on line 302
+[18-Dec-2022 06:17:26 UTC] PHP Notice:  Undefined variable: dh in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:17:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:19:26 UTC] PHP Notice:  Undefined variable: dh in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:19:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:19:30 UTC] PHP Notice:  Undefined variable: dh in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:19:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:19:49 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:20:18 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:20:19 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:20:23 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 6
+[18-Dec-2022 06:22:14 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 5
+[18-Dec-2022 10:01:15 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 5
+[18-Dec-2022 10:03:22 UTC] PHP Notice:  Undefined index: mahd in /home/abz4ps6gmkfv/public_html/views/pages/_hd-chitiet.php on line 5
+[18-Dec-2022 10:45:46 UTC] PHP Parse error:  syntax error, unexpected 't1zone' (T_STRING) in /home/abz4ps6gmkfv/public_html/models/taikhoan.php on line 199
+[18-Dec-2022 10:45:53 UTC] PHP Parse error:  syntax error, unexpected 't1zone' (T_STRING) in /home/abz4ps6gmkfv/public_html/models/taikhoan.php on line 199
+[18-Dec-2022 10:45:53 UTC] PHP Parse error:  syntax error, unexpected 't1zone' (T_STRING) in /home/abz4ps6gmkfv/public_html/models/taikhoan.php on line 199
+[18-Dec-2022 10:45:59 UTC] PHP Parse error:  syntax error, unexpected 't1zone' (T_STRING) in /home/abz4ps6gmkfv/public_html/models/taikhoan.php on line 199

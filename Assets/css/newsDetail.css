@@ -1,0 +1,47 @@
+.post-wrapper > *{
+    margin: 10px 0;
+}
+.post-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 5px 0;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.post-info{
+    padding: 10px 0;
+    border: 1px solid #ececec;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.post-link-list{
+    list-style-type: decimal;
+    border: 1px solid #e1e4e6;
+    max-width: 600px;
+}
+.post-link-list h3{
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 1px solid #e1e4e6;
+    margin: 0;
+}
+.post-link-list li{
+    font-size: 1.8rem;
+    margin: 20px 0;
+    padding: 3px 5px
+   
+}
+.post-link-list li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--color-text);
+}
+.post-link-list li:hover{
+    color: var(	--color-blue);
+    cursor: pointer;
+}
+.post-content{
+    font-size: 1.5rem;
+    line-height: 1.8;
+}

@@ -1,0 +1,79 @@
+
+th,td{
+    padding: 10px;    
+    border: 1px solid #7a7a7a;
+}
+
+th{
+    font-weight: bold;
+    background-color: var(--color-blue);
+    color: white;
+    font-size: larger;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+td a:hover{
+    color: orange;
+    transition: linear 0.25s;
+}
+.boxcenter table{
+    width: 100%;
+}
+
+.bill {
+    border: 4px double green;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+    margin: 5px auto;
+    width: calc(100% - 350px);
+}
+
+.bill h3 {
+    color: red;
+    font-size: 25px;
+}
+
+
+.bill input,
+.bill textarea {
+    width: 98%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.bill label{
+    font-size: 13px;
+}
+
+.bill select {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.bill div {
+    margin: 2px;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 13px;
+    width:calc(100% - 350px);
+}
+
+input[type=radio]{
+    width: 50px;
+    padding: 5px;
+}
+
+.fix{
+    padding: 5px;
+}

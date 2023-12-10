@@ -1,0 +1,336 @@
+:-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #606060;
+    border-radius: 4px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.container-fluid {
+    margin-right: 0;
+}
+
+.table-responsive {
+    overflow-x: hidden;
+}
+
+/* Table sản phẩm */
+.table {
+    table-layout: fixed;
+    text-align: center;
+}
+#example_wrapper .row:nth-child(2) {
+    overflow-x: auto;
+}
+.table tbody tr:hover {
+    background-color: #14161D;
+    color: #fff;
+}
+.table th {
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.table td {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.table .checkbox {
+    width: 50px;
+    text-align: center;
+    padding: 0;
+}
+.table .form-check-input {
+    margin-left: 0;
+    position: unset;
+}
+
+/* Table sản phẩm */
+.table .tensp, .table .user,  .table .tenkh, .table .email, .table .pass {
+    width: 300px;
+}
+.table .price_sale, .table .price, .table .yeuthich, .table .truycap, .table .sell {
+    width: 220px;
+}
+.table .img, .table .vaitro {
+    width: 200px;
+}
+.table .img {
+    padding: 10px 20px;
+}
+
+.table .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+.table .chitiet, .table .diachi {
+    width: 480px;
+}
+.table .th, .table .dm, .table .sdt {
+    width: 240px;
+}
+.table .hot, .table .block, .table .gioihan {
+    width: 160px;
+}
+/* .table .hienthi {
+    text-align: center;
+} */
+.table .hanhdong, .table .show_hide, .table .hienthi {
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Table danh mục */
+.table .stt {
+    width: 140px;
+}
+.table .tendm, .table .tenth {
+    width: 250px;
+}
+
+.table .logo {
+    width: 160px;
+    text-align: center;
+}
+
+
+
+/* Table bình luận */
+.table .sobinhluan {
+    width: 180px;
+}
+
+.table .ngaybl {
+    width: 220px;
+}
+
+/* Table tài khoản */
+
+
+
+
+.table .table-td-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-td-button a {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.table .table-td-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    /* text-align: justify; */
+    text-align: center;
+}
+.table tfoot th {
+    padding: 10px 30px;
+}
+.btn-s {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.dataTables_wrapper .dataTable thead .hanhdong.sorting:before,
+.dataTables_wrapper .dataTable thead .hanhdong.sorting:after {
+    content: none;
+}
+
+.dataTables_wrapper .dataTable thead .checkbox.sorting:before,
+.dataTables_wrapper .dataTable thead .checkbox.sorting:after {
+    content: none;
+}
+
+
+.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+.dataTables_length label select {
+    width: auto;
+    display: inline-block;
+}
+.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+}
+.dataTables_filter label input {
+    margin-left: 10px;
+    display: inline-block;
+    width: auto;
+}
+.row .table-tool {
+    display: flex;
+    justify-content: flex-end;
+}
+.dataTables_wrapper .row:nth-child(2)::-webkit-scrollbar {
+    display: block;
+    background-color: transparent;
+    height: 8px;
+}
+
+.pagination .previous, .pagination .next {
+    min-width: 114px;
+    text-align: center;
+}
+
+.sidebar-brand.brand-logo img {
+    height: 30px;
+    width: auto;
+}
+
+.sidebar .sidebar-brand-wrapper .sidebar-brand img {
+    max-height: 100%;
+    width: auto;
+}
+
+/* .container-fluid-footer {
+    min-height: unset;
+    width: 100%;
+}
+.main-panel-footer {
+    padding-top: 0;
+    min-height: unset;
+}
+.footer {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: calc(100% - 244px);
+} */
+.sidebar .sidebar-brand-wrapper .sidebar-brand.brand-logo-mini img {
+    max-height: 28px;
+    width: auto;
+}
+
+select.form-control, input[type="text"].form-control, textarea.form-control {
+    color: #fff;
+}
+
+select.form-control:focus, input[type="text"].form-control:focus, textarea.form-control:focus {
+    color: #fff;
+}
+
+.input-group-prepend {
+    color: white;
+}
+
+
+.table .ngay_nhap{
+    width: 200px;
+}
+
+.table .thong_so{
+    width: 250px;
+}
+
+.table .ngay_nhap,.table .dm,.table .th{
+    width: 175px;
+    text-align: center;
+}
+
+#detail{
+    text-align: left;
+
+}
+
+td[class='thong_so']{
+    text-align: left;
+}
+
+.table .price,.table .price_sale{
+    width: 150px;
+}
+
+.table .tensp{
+    width: 200px;
+}
+
+.container-fluid-footer {
+    min-height: unset;
+}
+.main-panel-footer {
+    padding-top: 0;
+    min-height: unset;
+}
+.footer {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 100%;
+}
+
+/* Table đơn hàng */
+.thongtinkh {
+    width: 400px;
+}
+.table .kh {
+    white-space: normal;
+}
+
+/* Chart */
+#chart_wrap {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    width: 100%;
+    overflow:hidden;
+}
+
+#chart_div1, #chart_div2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+.btn{
+    min-width: 68px;
+}
+@media (max-width: 991px) {
+    .sidebar {
+        left: unset;
+    }
+    .sidebar-offcanvas {
+        position: fixed;
+        max-height: calc(100vh - 70px);
+        top: 70px;
+        bottom: 0;
+        overflow: auto;
+        right: -244px;
+        -webkit-transition: all 0.25s ease-out;
+        -o-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+    }
+    .page-body-wrapper {
+        width: 100%;
+    }
+
+    .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
+        width: unset;
+    }   
+}

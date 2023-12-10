@@ -1,0 +1,203 @@
+.header-wrapper {
+    margin: 0;
+}
+
+/* .breadcrumb-section {
+    background: url(/Assets/IMG/headphone-fullwidth.jpg) center center repeat-y;
+    height: 200px;
+
+} */
+
+.breadcrumb {
+    background-image: url(../IMG/headphone-fullwidth.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.breadcrumb-item a {
+    font-size: 22.5px;
+    text-decoration: none;
+}
+
+.breadcrumb-item {
+    font-size: 22.5px;
+    margin-top: 45px;
+}
+
+.main-section {
+    margin-top: 25px;
+}
+
+.left-sidebar h2 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: var(--color-text);
+}
+
+.left-sidebar a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+
+.left-sidebar a:hover {
+    color: var(--color-blue);
+}
+
+.filter-item {
+    margin: 20px 0;
+}
+
+.filter-color-block {
+    padding: 5px;
+    margin: 5px 5px 0 -5px;
+    float: left;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.products-item {
+    margin: 10px 5px;
+}
+
+
+
+.pageNum {
+    float: right;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.products-item-content p {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.products-item a {
+    display: block;
+    color: #334141;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.products-item img {
+    width: 172px;
+}
+
+.products-item-content {
+    text-align: center;
+}
+
+.products-item-content h2 {
+    font-size: 14px;
+}
+
+.products-item-hidden {
+    display: flex;
+    justify-content: center;
+}
+
+.products-item-hidden {
+    visibility: hidden;
+    border-top: 1px solid rgb(239, 239, 239);
+}
+
+.products-item:hover .products-item-hidden {
+    visibility: visible;
+}
+
+.products-item-hidden i {
+    font-size: 22px;
+}
+
+.products-item-hidden a {
+    margin: 5;
+}
+
+.products-item:hover {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(1 1 1 / 30%);
+}
+
+.products-item:hover p {
+    color: var(--color-blue);
+}
+
+.muahang {
+    padding: 5px 20px;
+}
+
+.muahang .submit {
+    background-color: var(--color-blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.filter-container {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background-color: #fefefe;
+    padding: 30px;
+    z-index: 501;
+    width: 500px;
+    max-width: 80%;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+
+.filter-button {
+    color: var(--color-blue);
+    width: 60px;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    display: block;
+}
+
+.filter-button:active {
+    color: #333;
+    background-color: rgb(252, 134, 134)
+}
+
+.filter-button i {
+    font-size: 13px;
+}
+
+.filter-button {
+    font-size: 13px;
+}
+
+.filter-container {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: #fefefe;
+    padding: 30px;
+    z-index: 501;
+    width: 500px;
+    max-width: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+
+.filter-container.active {
+    left: 0;
+}
